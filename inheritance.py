@@ -1,10 +1,10 @@
 class Student:
-  def __init__(self, fnavn, enavn):
-    self.firstname = fnavn
-    self.lastname = enavn
+  def __init__(self, fnavn, enavn): # konstruktør
+    self.fnavn = fnavn
+    self.enavn = enavn
 
-  def printname(self):      # print studentnavn
-    print(self.firstname, self.lastname)
+  def printname(self):      # print studentnavn metode
+    print(self.fnavn, self.enavn)
 
 # børn arver fra førœlder klass: Student
 class IT_student(Student):
